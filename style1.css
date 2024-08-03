@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 30px;
+    color: #333;
+  }
+  
+  .lab-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+  }
+  
+  .lab-card {
+    width: 360px; /* Increased width */
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .lab-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .lab-card img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .lab-card h2 {
+    margin-top: 10px;
+    text-align: center;
+    color: #333;
+  }
+  
+  .lab-card p {
+    margin-top: 10px;
+    text-align: center;
+    color: #666;
+  }
+  
+  .lab-card ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .lab-card ul li {
+    margin-bottom: 5px;
+  }
+  
+  .lab-card a {
+    color: blue;
+    text-decoration: none;
+  }
+  
+  .lab-card a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive Styling */
+  @media only screen and (max-width: 768px) {
+    .lab-card {
+      width: 320px;
+    }
+  }
+  
+  @media only screen and (max-width: 576px) {
+    .lab-card {
+      width: 90%;
+      margin: 10px auto;
+    }
+  }
+  
